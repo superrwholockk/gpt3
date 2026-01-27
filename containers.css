@@ -1,34 +1,34 @@
-.wide-container {
+.container {
     width: 1440px;
 }
 
 @media  (max-width: 1680px) {
-    .wide-container {
+    .container {
         width: 1220px;
     }
 }
 
 @media  (max-width: 1440px) {
-    .wide-container {
+    .container {
         width: 1200px;
     }
 }
 
 @media (max-width: 1280px) {
-    .wide-container {
+    .container {
         width: 980px;
     }
 }
 
 @media (max-width: 1024px) {
-    .wide-container {
+    .container {
         width: auto;
         padding-inline: 50px;
     }
 }
 
 @media (max-width: 576px) {
-    .wide-container {
+    .container {
         padding-inline: 25px;
     }
 }
